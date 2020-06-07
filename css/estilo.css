@@ -1,0 +1,187 @@
+@font-face {
+	font-family: "Code";
+	src: url("../font/CodeLight.otf");
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/*Estrutura do site
+---------------------*/
+body {
+	font-family: Code;
+	background: #f4f2ec url("../images/fundo.png") repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+#container {
+	width: 1380px;
+	margin: 0 auto;
+}
+a:link, a:active, a:visited {
+	color: #af670a;
+	text-decoration: none;
+}
+#logo a {
+	width: 248px;
+	height: 21px;
+	text-indent: -999999px;
+	display: block;
+	background: url("../images/logo.png") no-repeat;
+}
+#logo h1 {
+	float: left;
+}
+/* barra de navegação
+-----------------------*/
+header {
+	padding: 15px 0px;
+	height: 55px;
+
+}
+a {
+	text-decoration: none;
+}
+nav ul {
+	list-style-type: none;
+	margin: 20px;
+	float: right;
+}
+nav ul li{
+	float: left;
+	padding: 0px 15px;
+}
+nav ul li a {
+	display: block;
+	margin-right: 25px;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+}
+nav ul li a:hover {
+	color: #227115;
+	border-bottom: 1px solid #227115;
+}
+/*Principal
+--------------*/
+#conteudo {
+	width: 910px;
+	float: left;
+	margin-bottom: 20px;
+}
+section#postagem {
+	width: 910px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+article {
+	width: 450px;
+	padding-bottom: 30px;
+
+}
+h4 {
+	color: #227115;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	padding: 10px 25px;
+}
+iframe {
+	padding-left: 25px;
+}
+#postagem p {
+	width: 405px;
+	padding-left: 25px;
+}
+#postagem a {
+	padding-left: 25px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: none;
+	color: #227115;
+}
+#postagem  ul a {
+	text-decoration: none;
+	padding: 0px;
+	font-weight: normal;
+}
+#postagem  ul a:hover {
+	text-decoration: underline;
+	padding: 0px;
+	font-weight: normal;
+	color: #227115;
+}
+#postagem ul {
+	padding-left: 40px;
+	color: #af670a;
+}
+aside {
+	width: 450px;
+	float: right;
+	background: #ebe7dd;
+	margin-bottom: 20px;
+}
+#visita {
+	margin-top: 10px;
+	padding: 30px 45px;
+	background: #cdc8b1;
+}
+h3 {
+	text-transform: uppercase;
+	color: #86521a;
+	padding: 5px 0px;
+	font-size: 16px;
+}
+#numero {
+	width: 30px;
+	height: 20px;
+}
+#visita #botao {
+	padding: 15px 50px;
+	margin-top: 15px;
+	background: #a49071;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	width: 100%;
+}
+#data {
+	width: 125px;
+	height: 20px;
+}
+input {
+	border: 1px solid #ada484;
+}
+#fotos {
+	padding: 20px 40px;
+	width: 370px;
+	height: 400px;
+}
+#hover input:hover {
+	cursor: pointer;
+	background: #ead8be;
+}
+#show_photos {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#show_photos img {
+	padding: 20px;
+	margin: 10px;
+	margin-top: 12px;
+	background: url("../images/fundo-foto.png") no-repeat;
+}
+/*rodapé
+----------*/
+footer {
+	clear: both;
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background: url("../images/fundo-rodape.png") no-repeat top center;
+}
+footer a {
+	padding-left: 10px;
+}
